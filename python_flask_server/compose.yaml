@@ -1,0 +1,7 @@
+services:
+  server:
+    build: .
+    image: education_university_kolos_2_python
+    container_name: education_university_kolos_2_python
+    ports:
+      - 8080:8080
